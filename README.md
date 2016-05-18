@@ -1,6 +1,12 @@
 # GAUSSIAN AND LAPLACE PYRAMIDS AND BLENDING
 
-## 1. Description
+## 1. General description
+
+This repo contains code that exmplifies the implementation of Gaussian and Laplacian pyramids and how they are used for image blending. The scripts included here itend to show this by:
+
+a. Exclusively using OpenCV
+b. Implementing each algorithm from scratch
+
 
 ### 1a. Description: 
 
