@@ -12,7 +12,7 @@ The file `from_openCV.py` contains the module that exclusively uses OpenCV libra
 
 ### 2. From-scratch library
 
-The file `gauss_pyramid.py` contains the module that generates a Gaussian pyramid from scratch; OpenCV is only used to load/write images from/to file. The Gauss pyramid can be found in [this link.] (https://github.com/rcuevass/pyramids_and_blending/tree/master/gauss_scratch)
+The file `gauss_pyramid.py` contains the module that generates a Gaussian pyramid from scratch; OpenCV is only used to load/write images from/to file. The Gauss pyramid can be found in [this link.] (https://github.com/rcuevass/pyramids_and_blending/tree/master/gauss_scratch) Laplacian pyramids and blending has **still to be implemented.**
 
 
 ### 3. IPython notebook
