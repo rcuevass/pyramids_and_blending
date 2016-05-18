@@ -2,7 +2,9 @@
 
 ## General description
 
-This repo contains code that exmplifies the implementation of Gaussian and Laplacian pyramids and how they are used for image blending. The scripts included here itend to show this by exclusively using OpenCV and implementing each algorithm from scratch. The code is executed with `python main.py`
+This repo contains code that exmplifies the implementation of Gaussian and Laplacian pyramids and how they are used for image blending. The scripts included here itend to show this by exclusively using OpenCV and implementing each algorithm from scratch. 
+The original images can be found in the folder [images] (https://github.com/rcuevass/pyramids_and_blending/tree/master/images) of this repository. 
+The code is executed with `python main.py`
 
 ### 1. OpenCV libraries: 
 
