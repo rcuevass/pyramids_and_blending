@@ -1,16 +1,12 @@
 # GAUSSIAN AND LAPLACE PYRAMIDS AND BLENDING
 
-## 1. General description
+## General description
 
-This repo contains code that exmplifies the implementation of Gaussian and Laplacian pyramids and how they are used for image blending. The scripts included here itend to show this by:
+This repo contains code that exmplifies the implementation of Gaussian and Laplacian pyramids and how they are used for image blending. The scripts included here itend to show this by exclusively using OpenCV and implementing each algorithm from scratch. The code is executed with `python main.py`
 
-a. Exclusively using OpenCV
-b. Implementing each algorithm from scratch
+### 1. OpenCV libraries: 
 
-
-### 1a. Description: 
-
-A squad of robotic rovers are to be landed by NASA on a plateau on Mars. This plateau, which is curiously rectangular, must be navigated by the rovers so that their on board cameras can get a complete view of the surrounding terrain to send back to Earth.
+The file `from_openCV.py` contains the module that exclusively uses OpenCV libraries for pyramid generation as well as blending. The sequences of images generated with this module can be found in [this link] (https://github.com/rcuevass/pyramids_and_blending/tree/master/blend_openCV)
 
 A rover’s position is represented by a combination of an x and y co-ordinates and a letter representing one of the four cardinal compass points. The plateau is divided up into a grid to simplify navigation. An example position might be
 `0, 0, N` , which means the rover is in the bottom left corner and facing North.
