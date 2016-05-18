@@ -6,14 +6,13 @@ This repo contains code that exmplifies the implementation of Gaussian and Lapla
 
 ### 1. OpenCV libraries: 
 
-The file `from_openCV.py` contains the module that exclusively uses OpenCV libraries for pyramid generation as well as blending. The sequences of images generated with this module can be found in [this link] (https://github.com/rcuevass/pyramids_and_blending/tree/master/blend_openCV)
+The file `from_openCV.py` contains the module that exclusively uses OpenCV libraries for pyramid generation as well as blending. The sequences of images generated with this module can be found in [this link.] (https://github.com/rcuevass/pyramids_and_blending/tree/master/blend_openCV)
 
-A rover’s position is represented by a combination of an x and y co-ordinates and a letter representing one of the four cardinal compass points. The plateau is divided up into a grid to simplify navigation. An example position might be
-`0, 0, N` , which means the rover is in the bottom left corner and facing North.
+### 2. From-scratch library
 
-In order to control a rover, NASA sends a simple string of letters. The possible letters are `L` , `R` and `M` . `L` and `R` makes the rover spin 90 degrees left or right respectively, without moving from its current spot. `M` means move forward one grid
-point, and maintain the same heading. Assume that the square directly North from `(x,y)` is `(x,y+1)`.
+The file `gauss_pyramid.py` contains the module that generates a Gaussian pyramid from scratch; OpenCV is only used to load/write images from/to file. The Gauss pyramid can be found in [this link.] (https://github.com/rcuevass/pyramids_and_blending/tree/master/gauss_scratch)
 
-### 1b. Input:
 
-The problem below requires some kind of input. You are free to implement any mechanism for feeding input into your solution.
+### 3. IPython notebook
+
+The whole progress of this project can be found on the Jupyter notebook `pyramids_blending.ipynb`
