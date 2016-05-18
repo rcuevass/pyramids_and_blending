@@ -18,3 +18,7 @@ The file `gauss_pyramid.py` contains the module that generates a Gaussian pyrami
 ### 3. IPython notebook
 
 The whole progress of this project can be found on the Jupyter notebook `pyramids_blending.ipynb`
+
+### 4. References
+
+The original paper on Laplacian pyramids can be fond in the [References] (https://github.com/rcuevass/pyramids_and_blending/tree/master/References) folder of this repo.
