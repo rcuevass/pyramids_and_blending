@@ -131,6 +131,25 @@ def GaussPyr3D(A,a_):
     return Afin
 
 
+def MatrixGaussPyramid(name,a_,size):
+    """
+    Function that generates a list containing a Gaussian pyramid from the name of the file containing 
+    the image
+    name: name of file containing image
+    a_: parameter that determines kernel
+    size: size of pyramid; number of levels in pyramid
+    """
+    # Get matrix of image from its file
+    Aimg = cv2.imread(name)
+    # Initialize list with original image
+    GaussPyr = [Aimg]
+    # Iterate to determine gaussian pyramid..
+    for k in range(size):
+        Aimg = GaussPyr3D(Aimg,a_)
+        GaussPyr.append(Aimg)
+    return GaussPyr
+
+
 def reduceImage(name_input,name_output):
     """
     Function that takes an image and reduces it by colvolution
