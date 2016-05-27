@@ -1,4 +1,4 @@
-# GAUSSIAN AND LAPLACE PYRAMIDS AND BLENDING
+# Gaussian and Laplace pyramids and blending
 
 ## General description
 
