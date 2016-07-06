@@ -23,7 +23,7 @@ The function testConvIndx(wHat,yTest,indx) **clearly** needs to be improved. The
 
 ### 3. IPython notebook
 
-The whole progress of this project can be found on the Jupyter notebook `pyramids_blending.ipynb`
+Progress on this project can be found on the Jupyter notebook `pyramids_blending.ipynb`
 
 ### 4. References
 
